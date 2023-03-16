@@ -13,7 +13,7 @@ namespace VotingApplicationProject
         public static void NewUserRegistration()  //for adding new candidates
         {
             Console.WriteLine();
-            Console.WriteLine("****************************",Color.DarkBlue);
+            //Console.WriteLine("****************************",Color.DarkBlue);
             Console.WriteLine("New Candidate Registeration: ",Color.LightSkyBlue);
             Console.WriteLine("****************************", Color.DarkBlue);
 

@@ -1,0 +1,15 @@
+{
+  "sam@yopmail.com": {
+    "AddFirstName": "sam",
+    "AddLastName": "sahu",
+    "AddGender": "male",
+    "AddEmail": "sam@yopmail.com",
+    "AddDob": "22/02/2001",
+    "AddContact": "8542141258",
+    "AddAddress": "mumbai",
+    "createdDate": "14-02-2024",
+    "createdTime": "05.04 PM",
+    "SelcetedParty": "BJP",
+    "isDeleted": null
+  }
+}

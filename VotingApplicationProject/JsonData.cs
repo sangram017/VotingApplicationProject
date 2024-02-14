@@ -3,12 +3,13 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Xml;
 
 namespace VotingApplicationProject
 {
     class JsonData
     {
-        public static string path = @"C:\Users\user\source\repos\VotingApplicationProject\Datastored.txt";
+        public static string path = @"C:\Users\sangr\Documents\Projects\VotingUsers.txt";
 
         public static void ShowVotedData(SortedDictionary<string, CandidateRegistration> tdata)
         {
@@ -17,7 +18,7 @@ namespace VotingApplicationProject
                 File.Create(path);
             }
             StreamWriter sw = new StreamWriter(path);
-            string jsonFile = JsonConvert.SerializeObject(tdata, Formatting.Indented);
+            string jsonFile = JsonConvert.SerializeObject(tdata, (Newtonsoft.Json.Formatting)System.Xml.Formatting.Indented);
 
             sw.WriteLine(jsonFile);
             sw.Close();
